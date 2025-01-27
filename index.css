@@ -1,0 +1,466 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+} 
+nav{
+    height: 90px;
+     padding-top: 40px; 
+
+}
+  nav ul{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+     width: 80%;
+}
+  nav li {
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+    color: #1a1414;
+    font-size: 20px;
+     padding: 10px 20px;
+}
+.logo img{
+    width: 150px; 
+    height: 75px; 
+    padding: 10px 20px 5px 15px;
+     border-radius: 20px; 
+    background: hsl(0, 0%, 100%); 
+    background-position: center;
+
+}
+header{
+    height: 90vh;
+}
+
+header .debut{
+ background: url("Images/IMG-20241230-WA0013.jpg");
+ background-size: cover;
+ background-position: center;
+ border: 2px solid rgb(146, 143, 143);
+ height: 80vh;
+}
+header .debut{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+}
+ .form{
+    font-size: 25px;
+    background-color: #5f5757;
+    color: #FFF;
+    border: 1px solid rgb(87, 81, 81);
+     width: 60vh; 
+    height: 80px;
+    padding-left: 25px;
+     margin-top: 20px; 
+}
+.para{
+    color: #FFF;
+    font-weight: bolder;
+    text-align: center;
+}
+.sec1{
+    height: 60vh;
+
+}
+.sec1 .domaine{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    margin-top: 30px;
+}
+.image{
+    background-size: cover;
+    background-position: center;
+    width: 25vh;
+    height: 25vh;
+    display: flex; 
+    justify-content: center; 
+     justify-items:center ; 
+    border: 3px solid rgb(5, 172, 130);
+    border-radius: 50%;
+}
+.photo1 img, .photo2 img, .photo3 img{
+     padding-top: 50px; 
+
+}
+.titre h3{
+    font-size: 24px;
+    /* text-align: center;  */
+     margin-left: 17px; 
+}
+.titre p{
+    font-size: 16px;
+    color: #817c7c;
+    text-align: center;
+}
+/* DEBUT section2 */
+.sec2{
+    height: 110vh;
+    background-color: #ece7e7;
+}
+.container1 .titre1{
+    text-align: center;
+    font-size: 28px;
+    padding-top: 30px;
+}
+.container1 .matiere{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: -20px;
+}
+.container1 .matiere p{
+    color: #696666;
+    font-size: 18px;
+}
+.container1 .image-web{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+     grid-auto-rows: 250px;
+}
+.image1{
+    background: url("Images/work-express.jpg");
+
+}
+
+.image2{
+    background: url("Images/html-css.jpg");
+    
+}
+.image3{ 
+    background: url("Images/canva.jpg");
+    
+}
+.image4{
+    background: url("Images/JS.jpg");
+    
+}
+.image5{
+    background: url("Images/JAVA.jpg");
+
+    
+}
+.image6{
+    background: url("Images/inksca.jpg");
+    
+}
+.image7{
+    background: url("Images/AE.jpg");
+    
+}
+.image8{
+    background: url("Images/pyton.jpg");
+    
+}
+.image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8{
+    background-size: cover;
+    background-position: center;
+}
+.sec3{
+    height: 120vh;
+}
+.container2 .titre2{
+    text-align: center;
+    font-size: 28px;
+}
+.container2 .para2{
+    text-align: center;
+    color: #1b1b1b;
+    font-size: 16px;
+}
+.sec3 .bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.skills h2{
+    font-weight: 400px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-top: 50px;
+}
+ .skills{
+    display: flex;
+    justify-content:space-around;
+    justify-items: center;
+}  
+.progress-bar{
+    background-color: rgb(209, 218, 215);
+    width: 80vh;
+    height: 12px;
+    border-radius: 5px;
+}
+
+.progress-bar div{
+    height: 10px;
+    border-radius: 5px;
+   
+}.progress-bar  div span{
+    float: right;
+     position: relative;
+    top: -25px; 
+    /* left: 20px;  */
+    color:rgb(76, 78, 76) }
+
+    .etat1 {
+        background: #aecace;
+         width:100%;
+    }
+    .etat2{
+
+        background: #aecace;
+        width:90%; 
+    }
+    .etat3{
+        background: #aecace;
+         width:80%; 
+    }
+    .etat4{
+        background: #aecace;
+        width:70%; 
+        animation:  etat4  2s linear forwards ;
+    }
+.sec4{
+    height: 100vh;
+    background-color: #aecace;
+}
+.container3 .titre3{
+    font-size: 28px;
+    color: #FFF;
+}
+.titre3 h1{
+    text-align: center;
+}
+.container3 .para3 p{
+font-size: 16px;
+color:#ebe6e6;
+text-align: center;
+}
+.perso1{
+    background-image: url("Images/p1.jpg");
+    margin-left: 15px;
+
+}
+.perso2{
+    background-image: url("Images/p2.jpg");
+
+}
+.perso3{
+    background-image: url("Images/p3.jpg");
+
+}
+.perso4{
+    background-image: url("Images/p4.jpg");
+
+}
+.perso1, .perso2,.perso3,.perso4{
+    background-size: cover;
+    background-position: center;
+
+}
+.image-perso{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(4,285px);
+    grid-template-rows: 380px;
+}
+.image-perso{
+padding-top: 50px;
+}
+
+.perso1:hover{
+    box-shadow: 0 10px 15px black;
+    transform: scale(1.03);
+}
+.perso2:hover{
+    box-shadow: 0 10px 15px black;
+    transform: scale(1.03);
+}
+.perso3:hover{
+    box-shadow: 0 10px 15px black;
+    transform: scale(1.03);
+}
+.perso4:hover{
+    box-shadow: 0 10px 15px black;
+    transform: scale(1.03);
+}
+.sec5{
+    height: 70vh;
+}
+.container4{
+    height: 70vh;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    
+
+}
+.logo2{
+    background-size: cover;
+    background-position: center;
+}
+.para4 {
+    text-align: center;
+    position: relative;
+    top:80px;
+    z-index: 1;
+    color:#242222;
+    font-size: 16px;
+}
+.para5 h4{
+    position: relative;
+    top: 150px;
+    font-size: 16px;
+}
+footer{
+    height: 90vh;
+}
+.pied-P{
+    height: 90vh;
+    background-color: #e9e5e5;
+    padding-top: 30px;
+}
+.titre4 h3, .titre5 h3{
+    text-align: center;
+    font-size: 24px;
+
+}
+.titre5 h3{
+    padding-top: 30px;
+}
+
+.contact{
+    display: flex;
+    justify-content:center;
+    justify-items: center;
+}
+.contact p{
+    margin-left: 40px;
+    font-size: 16px;
+}
+.droit p{
+    text-align: center;
+    color:#6d6969;
+    position: relative;
+    top: 150px;
+}
+
+@media screen and (max-width:896px){
+    nav ul{
+         flex-direction: column; 
+         margin-top: -20px; 
+       
+   }
+   nav ul li a{
+    font-size: 14px;
+    color: green;
+   }
+   .form{
+    padding-top: -20px;
+    width: 40vh;
+    height: 40px;
+    font-size: 18px;
+   }
+   .sec1{
+    width: 100%;
+   }
+    .sec1 .domaine{
+        padding-top: 35px;
+   } 
+    .image {
+        width: 10vh;
+        height: 10vh; 
+    }
+    img{
+        width: 40px;
+        height: 40px;
+        margin-top: -35px;
+    }
+   .titre h3{
+    font-size: 18px;
+    color:green
+   }
+   .titre p{
+    font-size: 12px;
+   }
+   .sec2 {
+    width: 100%;
+   }
+  .container1 .titre1 h1{
+    font-size: 18px;
+    color: green;
+   }
+   .container1 .matiere p{
+    font-size: 12px;
+   }
+  .container1 .image-web{
+    padding-top: 70px;
+  }
+  /* sec2 */
+  .sec2{
+    width: 100%;
+  }
+
+  .container1 .image-web{
+    grid-template-columns: repeat(4,116px);
+     grid-auto-rows: 125px;
+}
+
+  /* sec3 */
+  .sec3{
+    width: 100%;
+  }
+  .container2 .titre2 h1{
+    font-size: 18px;
+    color: green;
+  }
+  .container2  .para2 p{
+    font-size: 12px;
+  }
+  .progress-bar{
+     width: 35vh; 
+  }
+  .skills h2{
+    font-size: 14px;
+  }
+  .progress-bar div span{
+    font-size: 14px ;
+}
+    /* sec4 */
+    .container3 .titre3 h1{
+        font-size: 18px;
+        color: rgb(53, 10, 168);
+        padding-top: 15px;
+    }
+    .container3 .para3 p{
+        font-size: 12px;
+    }
+    .container3 .image-perso{
+        margin-top: -50px;
+        grid-template-columns: repeat(1,130px);
+        grid-template-rows: repeat(4,130px);
+    }
+    /* Sec5 */
+    .sec5 .container4 .para4{
+        font-size: 12px;
+    }
+    .sec5 .container4 .para5{
+        font-size: 12px;
+
+    }
+
+}
+
+    
+
+
+   

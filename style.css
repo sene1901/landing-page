@@ -24,6 +24,25 @@ li a{
     font-size: 20px;
      padding: 10px 20px;
 }
+
+header{
+    height: 90vh;
+}
+
+header{
+ background: url("Images/IMG-20241230-WA0013.jpg");
+ background-size: cover;
+ background-position: center;
+ border: 2px solid rgb(146, 143, 143);
+ /* height: 90vh; */
+}
+header .debut{
+    height: 90vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+}
 .logo img{
     width: 150px; 
     height: 75px; 
@@ -31,24 +50,6 @@ li a{
      border-radius: 20px; 
     background: hsl(0, 0%, 100%); 
     background-position: center;
-
-}
-header{
-    height: 90vh;
-}
-
-header .debut{
- background: url("Images/IMG-20241230-WA0013.jpg");
- background-size: cover;
- background-position: center;
- border: 2px solid rgb(146, 143, 143);
- height: 80vh;
-}
-header .debut{
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    flex-direction: column;
 }
  .form{
     font-size: 25px;
@@ -75,7 +76,7 @@ header .debut{
     justify-items: center;
     margin-top: 30px;
 }
-.image{
+ .sec1 .image{
     background-size: cover;
     background-position: center;
     width: 25vh;
@@ -344,7 +345,8 @@ footer{
     justify-items: center;
 }
 .contact p{
-    margin-left: 40px;
+    text-align: center;
+    /* margin-left: 40px; */
     font-size: 16px;
 }
 .droit p{
@@ -358,25 +360,30 @@ footer{
     nav ul{
          flex-direction: column; 
          margin-top: -20px; 
-       
    }
    nav ul li a{
     font-size: 14px;
     color: green;
    }
-   .form{
-    padding-top: -20px;
-    width: 40vh;
-    height: 40px;
+   header{
+    width: 100%;
+     /* height: 70vh;  */
+   }
+   .form {
+     width: 45vh; 
+    height: 50px;
     font-size: 18px;
+     text-align: center;
    }
    .sec1{
     width: 100%;
    }
     .sec1 .domaine{
-        padding-top: 35px;
+        padding-top: 30px;
+        margin: auto;
    } 
-    .image {
+   .sec1 .image
+ {
         width: 10vh;
         height: 10vh; 
     }
@@ -384,13 +391,19 @@ footer{
         width: 40px;
         height: 40px;
         margin-top: -35px;
+
     }
    .titre h3{
-    font-size: 18px;
-    color:green
+    font-size: 16px;
+    color:green;
+     margin-right: 10px; 
+
+    
    }
    .titre p{
     font-size: 12px;
+    margin-left:- 25px;
+
    }
    .sec2 {
     width: 100%;
@@ -411,8 +424,8 @@ footer{
   }
 
   .container1 .image-web{
-    grid-template-columns: repeat(4,116px);
-     grid-auto-rows: 125px;
+    grid-template-columns: repeat(4,112px);
+     grid-auto-rows: 115px;
 }
 
   /* sec3 */
@@ -427,7 +440,7 @@ footer{
     font-size: 12px;
   }
   .progress-bar{
-     width: 35vh; 
+     width: 32vh; 
   }
   .skills h2{
     font-size: 14px;
@@ -436,6 +449,10 @@ footer{
     font-size: 14px ;
 }
     /* sec4 */
+    .sec4{
+        width: 100%;
+        height: 130vh;
+    }
     .container3 .titre3 h1{
         font-size: 18px;
         color: rgb(53, 10, 168);
@@ -445,10 +462,12 @@ footer{
         font-size: 12px;
     }
     .container3 .image-perso{
-        margin-top: -50px;
-        grid-template-columns: repeat(1,130px);
-        grid-template-rows: repeat(4,130px);
+        /* margin-top: -50px; */
+        grid-template-columns: 350px; 
+        grid-template-rows: repeat(4,155px);
+        gap: 10px;
     }
+
     /* Sec5 */
     .sec5 .container4 .para4{
         font-size: 12px;
@@ -457,6 +476,13 @@ footer{
         font-size: 12px;
 
     }
+    footer{
+        width: 100%;
+    }
+    .contact p{
+        font-size: 12px;
+    }
+    
 
 }
 
